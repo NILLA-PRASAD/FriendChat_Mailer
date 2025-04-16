@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Chat Mailer - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+       
+        <a href="InboxServlet">Inbox</a> |
+        <a href="ComposeServlet">Compose Mail</a> |
+        <a href="SentServlet">Sent Mail</a> |
+        <a href="TrashServlet">Trash</a> |
+        <a href="LogoutServlet">Logout</a>
+    </div>
+    <hr/>
+    <div class="container">
+        <h1>Welcome to Friend Chat Mailer</h1>
+    </div>
+</body>
+</html>
