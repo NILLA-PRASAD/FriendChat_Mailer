@@ -1,0 +1,1 @@
+# FriendChat_Mailer
